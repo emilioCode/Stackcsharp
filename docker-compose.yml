@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  requerimientos_stack_csharp:
+    image: ${DOCKER_REGISTRY}requerimientosstackcsharp
+    build:
+      context: .
+      dockerfile: Requerimientos_Stack_Csharp\Dockerfile

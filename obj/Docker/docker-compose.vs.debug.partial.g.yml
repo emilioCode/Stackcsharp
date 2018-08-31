@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  requerimientos_stack_csharp:
+    image: requerimientosstackcsharp:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_requerimientos_stack_csharp$
+    volumes:
+      - C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\Requerimientos_Stack_Csharp:C:\app
+      - C:\Users\Owner\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_requerimientos_stack_csharp$
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_requerimientos_stack_csharp$ bin\\Debug\\netcoreapp2.0\\Requerimientos_Stack_Csharp.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
