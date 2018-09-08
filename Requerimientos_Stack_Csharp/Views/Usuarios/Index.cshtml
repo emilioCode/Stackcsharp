@@ -1,0 +1,23 @@
+﻿ @model IEnumerable<Requerimientos_Stack_Csharp.Models.Usuario>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped table-bordered">
+    <tr style="background-color:black; color:white; font-weight:bold;">
+        <th>ID</th>
+        <th>NOMBRE COMPLETO</th>
+        <th>NOMBRE DE USUARIO</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@Html.DisplayFor(modelitem => item.Idusuario)</th>
+            <th>@Html.DisplayFor(modelitem => item.Nombrecompleto)</th>
+            <th>@Html.DisplayFor(modelitem => item.UserName)</th>
+        </tr>
+    }
+
+</table>

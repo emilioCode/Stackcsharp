@@ -5,7 +5,7 @@ networks:
 services:
   requerimientos_stack_csharp:
     build:
-      context: C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp
+      context: C:\Users\Owner\Documents\GitHub\Stackcsharp
       dockerfile: Requerimientos_Stack_Csharp\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

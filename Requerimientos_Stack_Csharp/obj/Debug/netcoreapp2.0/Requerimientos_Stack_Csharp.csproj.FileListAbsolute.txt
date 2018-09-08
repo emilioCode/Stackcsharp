@@ -9,3 +9,14 @@ C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\Requerimientos_S
 C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.AssemblyInfo.cs
 C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.dll
 C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.pdb
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.AssemblyInfoInputs.cache
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.AssemblyInfo.cs
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.dll
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\bin\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.deps.json
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\bin\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.runtimeconfig.json
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\bin\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.runtimeconfig.dev.json
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\bin\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.dll
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\bin\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.pdb
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.pdb
+C:\Users\Owner\Documents\GitHub\Stackcsharp\Requerimientos_Stack_Csharp\obj\Debug\netcoreapp2.0\Requerimientos_Stack_Csharp.csprojAssemblyReference.cache

@@ -1,1 +1,2 @@
 C:\Users\Owner\Desktop\Caribe Media\Requerimientos_Stack_Csharp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\Stackcsharp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

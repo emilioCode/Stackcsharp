@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Requerimientos_Stack_Csharp.Models;
 
 namespace Requerimientos_Stack_Csharp
 {
@@ -22,6 +23,10 @@ namespace Requerimientos_Stack_Csharp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //Add Application Service
+            services.AddScoped<IServicio, Servicio>();
+            services.AddEntityFrameworkInMemoryDatabase();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
