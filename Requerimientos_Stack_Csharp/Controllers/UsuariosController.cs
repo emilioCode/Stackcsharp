@@ -13,6 +13,12 @@ namespace Requerimientos_Stack_Csharp.Controllers
         public IActionResult Index()
         {
             var data = db.Usuario;
+
+            //var data = new List<Usuario>{
+            //    new Usuario(){Idusuario= 1,Nombrecompleto="Emilio"},
+            //    new Usuario(){Idusuario= 2,Nombrecompleto="Juana"}
+
+        //};
             return View(data);
         }
     }

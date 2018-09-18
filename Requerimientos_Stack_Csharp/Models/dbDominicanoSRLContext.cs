@@ -24,7 +24,8 @@ namespace Requerimientos_Stack_Csharp.Models
                 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Server=192.168.100.237;Database=dbDominicanoSRL;User Id=mem; Password = 123456; ");
                 //"Data Source=ASUS;Initial Catalog=dbDominicanoSRL;Integrated Security=False;User ID=sa;Password=123;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
-            }                         
+                //192.168.100.237
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
